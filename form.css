@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: plum;
+}
+
+form{
+    width: 80%;
+}
+
+h1{
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Student-form{
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 300px;
+    padding: 30px;
+    
+}
+
+
+#RollNumber{
+    width: 100%;
+}
+
+
+.roll-number{
+    padding-bottom: 20px;
+    
+}
+
+.student-name{
+    padding-bottom: 20px;
+}
+
+.father-name{
+    padding-bottom: 20px;
+}
+
+.d-o-b{
+    padding-bottom: 20px;
+}
+
+.mobile{
+    padding-bottom: 20px;
+}
+
+
+.email{
+    padding-bottom: 20px;
+}
+
+.password{
+    padding-bottom: 20px;
+}
+
+.gender{
+    padding-bottom: 20px;
+}
+
+.department{
+    padding-bottom: 20px;
+}
+
+.course{
+    padding-bottom: 20px;
+}
+
+.Photo{
+    padding-bottom: 20px;
+}
+
+.city{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.adress{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.submit{
+    padding-bottom: 20px;
+}

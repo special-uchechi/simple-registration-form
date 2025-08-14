@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<form action="index.php" method="post" enctype="multipart/form-data">
+
+
+    <h1>Student Registration Form</h1>
+  
+  
+  <div class="Student-form">
+    
+  <div class="roll-number">
+    <label for="RollNumber">Roll Number:</label>
+    <input type="text" id="RollNumber"> <br>
+  </div>
+    
+  
+  <div class="student-name">
+    <label for="Student Name">Student Name:</label>
+    <input type="text" placeholder="first name" id="Student Name"> 
+    <input type="text" placeholder="last name" id="Student Name"> <br>
+  </div>
+
+    
+  <div class="father-name">
+    <label for="Father's Name">Father's Name:</label>
+    <input type="text" id="Father's Name"> <br>
+  </div>
+   
+
+<div class="d-o-b">
+    <label for="birthday">Date of Birth:</label>
+    <select name="Day" aria-placeholder="Day" id="birthday">
+        <option value="Day">1</option>
+        <option value="Day">2</option>
+        <option value="Day">3</option>
+        <option value="Day">4</option>
+        <option value="Day">5</option>
+        <option value="Day">6</option>
+        <option value="Day">7</option>
+        <option value="Day">8</option>
+        <option value="Day">9</option>
+        <option value="Day">10</option>
+        <option value="Day">11</option>
+        <option value="Day">12</option>
+        <option value="Day">13</option>
+        <option value="Day">14</option>
+        <option value="Day">15</option>
+        <option value="Day">16</option>
+        <option value="Day">17</option>
+        <option value="Day">18</option>
+        <option value="Day">19</option>
+        <option value="Day">20</option>
+        <option value="Day">21</option>
+        <option value="Day">22</option>
+        <option value="Day">23</option>
+        <option value="Day">24</option>
+        <option value="Day">25</option>
+        <option value="Day">26</option>
+        <option value="Day">27</option>
+        <option value="Day">28</option>
+        <option value="Day">28</option>
+        <option value="Day">30</option>
+        <option value="Day">31</option>
+        
+    </select>
+
+
+
+    <select name="month" aria-placeholder="month" id="birthday">
+        <option value="">January</option>
+        <option value="">Febuary</option>
+        <option value="">March</option>
+        <option value="">April</option>
+        <option value="">May</option>
+        <option value="">June</option>
+        <option value="">July</option>
+        <option value="">August</option>
+        <option value="">September</option>
+        <option value="">October</option>
+        <option value="">November</option>
+        <option value="">December</option>
+
+    </select>
+
+    <input type="number" id="birthday" placeholder="year" min="1980" max="2025"><br>
+</div>
+
+
+<div class="mobile">
+    <label for="Mobile No.:">Mobile No.:</label>
+    <input type="tel" id="Mobile No." placeholder="080-1234-5678" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br>
+</div>
+    
+
+    
+<div class="email">
+    <label for="email">Email id:</label>
+    <input type="email"><br>
+</div>
+    
+
+<div class="password">
+    <label for="password">Password:</label>
+    <input type="password" id="password" minlength="6" maxlength="15" required><br>
+</div>
+    
+
+<div class="gender">
+<label for="gender">Gender:</label>
+
+    <label for="male">male</label>
+    <input type="radio" id="male" name="gender">
+    <label for="female">female</label>
+    <input type="radio" id="female" name="gender"><br>
+</div>
+
+
+<div class="department">
+    <label for="department">Department:</label>
+
+    <label for="cse">CSE</label>
+    <input type="checkbox" id="cse">
+
+    <label for="it">IT</label>
+    <input type="checkbox" id="it">
+
+    <label for="ECE">ECE</label>
+    <input type="checkbox" id="ECE">
+
+    <label for="Civil">Civil</label>
+    <input type="checkbox" id="Civil">
+
+    <label for="Mech">Mech</label>
+    <input type="checkbox" id="Mech"><br>
+</div>
+
+
+<div class="course">
+    <label for="Course">Course:</label>
+    <select name="select-current-course" id="Course" >
+        <option value="">web dev</option>
+        <option value="">data analytics</option>
+        <option value="">ui/ux</option>
+        <option value="">cyber security</option>
+    </select><br>
+</div>
+
+
+<div class="Photo">
+    <label for="Student Photo">Student Photo:</label>
+    <input type="file" id="Student Photo" accept="image/png, image/jpep"><br>
+</div>
+
+
+
+<div class="city">
+    <label for="City">City:</label>
+    <textarea name="comment" id="City" ></textarea><br>
+</div>
+
+
+
+<div class="adress">
+    <label for="Address">Address:</label>
+    <textarea name="Address" id="Address" rows="3" cols="5"></textarea><br>
+</div>
+
+
+   <div class="submit"><input type="submit"></div>
+  </div>
+</form>
+
+</body>
+</html>
